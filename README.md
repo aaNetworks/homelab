@@ -5,7 +5,7 @@
 
 ### Iniciemos con el hardware.
 
-- networking:
+networking:
 
     En esta sección tenemos varios routers y switches.
 
@@ -27,9 +27,9 @@
         Ubiquiti UCK – Generación 1 cloud key.
 
 
-- servers:
+servers:
 
-    Supermicro demacomisionado.
+    Supermicro decomisionado.
 
         Intel(R) Atom(TM) CPU D2500 @ 1.86GHz
         6GB de RAM
