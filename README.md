@@ -1,7 +1,7 @@
 ### Ariel Antigua Networks (aaNetworks)
 ### homelab infrastructura.
 
-<img src="images/homelab_20231208.jpeg" alt="homelab for 20231208" style="max-width: 100%; height: auto;" />
+<img src="images/logo-aanetworks.jpg" alt="homelab for 20231208" style="max-width: 100%; height: auto;" />
 
 ### Iniciemos con el hardware.
 
