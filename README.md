@@ -35,6 +35,15 @@
         2x 1Gb NIC
         node17 – Ubuntu Server 20.04 – Es un mini-pc Lenovo M700, temporalmente en un cluster de Kubernetes.
 
+    2x HP Z440
+
+        -	Intel Xeon E5-2640 v4
+        -	128GB of DDR4
+        -	1 Samsung SSD 970 EVO 1TB
+        -	1 Kingston SSD 240G (ESXi installed here)
+        -	1 Intel SSD DC S3700 1.6TB
+        -	1 10Gb Dual port SFP+ HP NC560
+
 
     store – unRAID 6 – almacenamiento centralizado para las necesidades de File Services. Además de storage con unRAID se tiene la facilidad de correr Docker/VM. Alguno de los contenedores corriendo aquí son Plex, Syncthing, Sonarr, Radarr y algún otro que olvide ahora mismo.
 
@@ -53,4 +62,4 @@
 
 
 
-![image](images/homelab_20231208.jpeg =100x20)
+<img src="images/homelab_20231208.jpeg" alt="homelab for 20231208" style="max-width: 100%; height: auto;" />
