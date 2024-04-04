@@ -20,11 +20,11 @@ networking:
         -   brrr –  Mikrotik RB750Gr3 – router para pruebas de PPPoE, MPLS y VPLS.
         -   ndnd – Mikrotik RB2011L-RM – router para pruebas de PPPoE, MPLS y VPLS.
         -   elzar – Mikrotik RB2011-RM – router para pruebas de PPPoE, MPLS y VPLS.
-        -   CORE0 – Zyxel GS-1900 – Switch principal de la red.
+        -   CORE01 – Zyxel GS-1900 – Switch principal de la red.
         -   CORE02 - Ubiquiti Aggreation - 10Gbe switch for vSAN/vMotion and Data Traffic
         -   Atlas1 – RIPE Atlas sensor (Probe #28779) – este equipo directamente no se controla, es parte del proyecto Atlas de RIPE NCC. (¡¡¡4 anos en funcionamiento !!!)
         -   Atlas2 – RIPE Atlas Sensor (Probe #51981) – este sensor reporta estadísticas usando el internet de CLARO.
-        -   Atlas3 – RIPE Atlas Sensor (Probe #XXXXX ) – este sensor reporta estadísticas usando el internet de ORBIT.
+        -   Atlas3 – RIPE Atlas Sensor (Probe #32174) – este sensor reporta estadísticas usando el internet de ORBIT.
         -   Ubiquiti UCK – Generación 1 cloud key.
 
 
@@ -37,7 +37,7 @@ servers:
         -   SSD 60GB Sandisk
         -   2x 1Gb NIC
 
-    2x HP Z440
+    2x HP Z440 - (Proxmox VE 8.1)
 
         -	Intel Xeon E5-2640 v4
         -	128GB of DDR4
@@ -49,7 +49,8 @@ servers:
 
     store – unRAID 6 – almacenamiento centralizado para las necesidades de File Services. Además de storage con unRAID se tiene la facilidad de correr Docker/VM. Alguno de los contenedores corriendo aquí son Plex, Syncthing, Sonarr, Radarr y algún otro que olvide ahora mismo.
 
-        -   Ahora es una VM en ESXi7.0 (esxi1)
+
+        -   Ahora es una VM (Proxmox VE 8.1)
         -   Supermicro X9SRL
         -   Intel Xeon E5-2680 v2
         -   128GB de RAM
@@ -59,7 +60,7 @@ servers:
         -   1x Intel SSD PCIe 1.6 TB
         -   More SSDs for VMs….
         -   2x 1Gb NIC
-        -   10Gb NIC – aún no se ha conectado, el CRS cuenta con dos puertos 10GB.
+        -   1 10Gb Dual port SFP+ HP NC560
         -   Rosewill RSV-L4000 – 4U
 
 Equipos que no estan en el rack.
