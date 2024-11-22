@@ -2,7 +2,7 @@
 [aaNetworks](https://aanetworks.org)
 ### homelab infrastructura.
 
-<img src="images/logo-aanetworks.jpg" alt="homelab for 20231208" style="max-width: 100%; height: auto;" />
+<img src="images/logo-aanetworks.jpg" alt="homelab for 2024" style="max-width: 100%; height: auto;" />
 
 ### Iniciemos con el hardware.
 
@@ -68,8 +68,7 @@ Equipos que no estan en el rack.
 
         -   Intel(R) Xeon(R) CPU D-1518 @ 2.20GHz
         -   64GB de RAM
-        -   1x SSD 240GB
-        -   1 Intel SSD DC S3700 1.6TB
         -   1x M.2 NVMe 500GB
+        -   2x 1Gb NIC
 
 <img src="images/homelab_20231208.jpeg" alt="homelab for 20231208" style="max-width: 100%; height: auto;" />
