@@ -45,11 +45,8 @@ servers:
         -   1 Intel SSD DC S3700 1.6TB
         -   1 10Gb Dual port SFP+ HP NC560
 
+    1x Custom Server with Supermicro X9SRL - Proxmox 8.1.4
 
-    store – unRAID 6 – almacenamiento centralizado para las necesidades de File Services. Además de storage con unRAID se tiene la facilidad de correr Docker/VM. Alguno de los contenedores corriendo aquí son Plex, Syncthing, Sonarr, Radarr y algún otro que olvide ahora mismo.
-
-
-        -   Ahora es una VM (Proxmox VE 8.1)
         -   Supermicro X9SRL
         -   Intel Xeon E5-2680 v2
         -   128GB de RAM
@@ -61,6 +58,9 @@ servers:
         -   2x 1Gb NIC
         -   1 10Gb Dual port SFP+ HP NC560
         -   Rosewill RSV-L4000 – 4U
+
+    store – unRAID 6 – almacenamiento centralizado para las necesidades de File Services. Además de storage con unRAID se tiene la facilidad de correr Docker/VM. Alguno de los contenedores corriendo aquí son Plex, Syncthing, Sonarr, Radarr y algún otro que olvide ahora mismo.
+    Converted to VM with an HBA Pass-through.
 
 Equipos que no estan en el rack.
 
